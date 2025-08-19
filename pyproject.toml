@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "get-unicode-arguments-to-launch-editor"
+version = "0.1.0a0"
+description = "A cross-platform Python utility that gets Unicode arguments to launch an EDITOR, using user input, environment variables, and platform-specific fallbacks."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "find-unicode-executable",
+    "posix-or-nt",
+    "read-unicode-environment-variables-dictionary",
+    "split-command-line"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/get-unicode-arguments-to-launch-editor"
+"Bug Tracker" = "https://github.com/jifengwu2k/get-unicode-arguments-to-launch-editor/issues"

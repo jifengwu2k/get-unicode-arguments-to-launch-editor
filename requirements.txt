@@ -1,0 +1,5 @@
+find-unicode-executable
+posix-or-nt
+read-unicode-environment-variables-dictionary
+split-command-line
+typing; python_version < '3.5'
